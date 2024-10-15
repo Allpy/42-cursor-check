@@ -6,13 +6,13 @@
 /*   By: alermi <alermi@student.42kocaeli.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/10 20:20:29 by alermi            #+#    #+#             */
-/*   Updated: 2024/10/10 20:44:56 by alermi           ###   ########.fr       */
+/*   Updated: 2024/10/15 09:30:03 by alermi           ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isalpha(char c)
+int	ft_isalpha(int c)
 {
-	if (c >= 'A' && c <= 'Z' || c >= 'a' && c <= 'z')
+	if (c >= 65 && c <= 90 || c >= 97 && c <= 122)
 		return (1);
 	return (0);
 }
