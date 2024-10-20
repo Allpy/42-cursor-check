@@ -1,0 +1,17 @@
+write those function :=:
+{
+	strlcpy
+	strlcat
+	strchr
+	strrchr
+	strncmp
+	memchr
+	memcmp
+	strnstr
+	aoti
+}
+
+control this francinette
+(
+	francinette yükle ve test at
+)
