@@ -12,12 +12,12 @@
 
 #include <string.h>
 
-size_t	ft_strlen(const char *c)
+size_t	ft_strlen(const char *s)
 {
-	size_t	i;
+	char	*p;
 
-	i = 0;
-	while (c[i] != '\0')
-		i++;
-	return (i);
+	p = s;
+	while (*p)
+		p++;
+	return(p - s);
 }
